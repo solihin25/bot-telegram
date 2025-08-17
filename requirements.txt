@@ -1,0 +1,7 @@
+Flask
+pyTelegramBotAPI
+python-dotenv
+google-generativeai
+gTTS
+requests
+elevenlabs

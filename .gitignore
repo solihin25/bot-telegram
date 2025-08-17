@@ -1,0 +1,3 @@
+# jangan upload file environment
+.env
+venv/

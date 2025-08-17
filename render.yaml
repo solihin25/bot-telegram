@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: gemini-telegram-bot
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python gemini.py
+    envVars:
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: BOT_TOKEN
+        sync: false
+      - key: ELEVENLABS_API_KEY
+        sync: false
+      - key: ELEVENLABS_VOICE_ID
+        sync: false
